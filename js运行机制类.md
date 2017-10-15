@@ -1,0 +1,1 @@
+### 运行机制类见 process.html单线程 => 同一事件只能执行一件事任务队列 => 同步任务执行完成再执行异步任务 同步任务：console.log异步任务：1. setTimeout/setInterval2. DOM 事件3. es6中的Promise什么是EventLoop？- 执行栈中执行的同步任务- 什么时候去异步队列中取任务- 什么时候往任务队列中放异步任务
